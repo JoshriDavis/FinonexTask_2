@@ -37,8 +37,6 @@ namespace FinonexTask_2
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
         }
 
-        // *** No children under discounts ***
-
         // Steps 1-9 - order 2 children books
         [Test, Order(1)]
         public void Test1()
